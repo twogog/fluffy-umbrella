@@ -6,8 +6,8 @@ h1{
 text-align: center;
 }
 
-.copyform{
-
+.copyform input{
+display:hidden;
 }
 
 /* Style the tab */

@@ -1,6 +1,11 @@
 body{
 background-color: #eeeeee;
 }
+
 h1{
 text-align: center;
+}
+
+.copyform{
+display:block;
 }

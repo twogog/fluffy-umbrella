@@ -9,25 +9,31 @@
   <body>
     <h1>Сервис-отказов</h1>
 
-<div class="copyform">
-<input type="text" value="" id="myInput">
-<button onclick="myFunction()">Жми</button>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Родная</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Неродная</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Gmail</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Мошенник</button>
 </div>
 
-<div class="copyform">
+<div id="London" class="tabcontent">
+  <div class="copyform">
 <input type="text" value="" id="myInput">
 <button onclick="myFunction()">Жми</button>
+</div>
 </div>
 
-<div class="copyform">
-<input type="text" value="" id="myInput">
-<button onclick="myFunction()">Жми</button>
+<div id="Paris" class="tabcontent">
+  
 </div>
 
-<div class="copyform">
-<input type="text" value="" id="myInput">
-<button onclick="myFunction()">Жми</button>
+<div id="Tokyo" class="tabcontent">
+  
 </div>
+
+
+
+
 
   </body>
 </html>

@@ -7,7 +7,7 @@ text-align: center;
 }
 
 .copyform input{
-display:hidden;
+display:none;
 }
 
 /* Style the tab */

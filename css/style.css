@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  background: url("../img/backgound.jpg") no-repeat;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-contaner {
+  max-width: 99%;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(202, 169, 21);
+}
+
+a {
+  font-size: 30px;
+  color: rgb(33, 180, 82);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+input {
+  position: absolute;
+  bottom: 100;
+  left: 100;
+  opacity: 0;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px 5px;
+  border-radius: 50%;
+  border-color: rgb(207, 204, 34);
+  outline: none;
+}
+
+p {
+  text-align: end;
+  color: rgb(53, 95, 67);
+  text-transform: uppercase;
+}
+
+p strong {
+  margin-right: 50px;
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 40px;
+}

@@ -4,7 +4,7 @@
 
 body {
   max-width: 100%;
-  background: url("../img/backgound.jpg") no-repeat;
+  background: url("https://i.imgur.com/7R9PByE.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -68,6 +68,6 @@ p {
 
 p strong {
   margin-right: 50px;
-  background: rgba(255, 255, 255, 0.4);
+  /* background: rgba(255, 255, 255, 0.4); */
   font-size: 40px;
 }
